@@ -18,7 +18,7 @@ export const initiateSSLCommerzPayment = async (order: IOrder) => {
         product_category: 'General',
         product_profile: 'general',
         cus_name: order.shippingAddress.fullName,
-        cus_email: 'customer@example.com', // Get from user if available
+        cus_email: 'customer@example.com',
         cus_add1: order.shippingAddress.street,
         cus_add2: order.shippingAddress.city,
         cus_city: order.shippingAddress.city,
